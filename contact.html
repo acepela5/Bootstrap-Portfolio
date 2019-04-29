@@ -17,7 +17,7 @@
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbarNav">
-<ul class="navbar-nav">
+<ul class="navbar-nav ml-auto">
     <li class="nav-item active">
         <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
     </li>
@@ -30,6 +30,24 @@
 </ul>
 </div>
 </nav>
+
+<!-- with help from GetBootstrap.com -->
+<form>
+        <div class="form-group">
+          <label for="name">Name: </label>
+          <input type="name" class="form-control" id="name" aria-describedby="name" placeholder="Enter Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="email" class="form-control" id="email" placeholder="Enter Email">
+        </div>
+        <div class="form-group">
+            <label for="textarea">Message</label>
+            <textarea class="form-control" id="textarea" rows="4" placeholder="Enter Message"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
 </body>
 </html>
