@@ -4,52 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <title>Portfolio</title>
+    <link rel="stylesheet" href="../Basic-Portfolio/assets/css/style.css">
 </head>
 <body>
-    
-    <!-- code influenced from GetBootstrap.com -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../Bootstrap-Portfolio/portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Bootstrap-Portfolio/contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Bootstrap-Portfolio/index.html">About Me</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <div id="header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="./index.html">About Me</a>
+                            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                          </div>
+                        </div>
+                      </nav>
+            </div>
+<!-- Navigator developed with help from John Dahle -->
 
-<!-- code influenced from GetBootstrap.com -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3">
-            <img src="../Bootstrap-Portfolio/images/art-color-colourful-207665.jpg" class="rounded float-left" alt="ed">
-        </div>
-        <div class="col-md-3">
-            <img src="../Bootstrap-Portfolio/images/baking-flour-food-1184265.jpg" class="rounded float-right" alt="bak">
-        </div>
-    </div>
-    <div class="row">
-        <img src="./images/bodybuilding-close-up-dumbbells-260352.jpg" class="rounded float-left" alt="lift">
-        <img src="./images/bookcase-bookshelves-bookstore-351265.jpg" class="rounded float-right" alt="mus">
-    </div>
-    <div class="row">
-        <img src="./images/concert-music-musical-instrument-111287.jpg" class="rounded float-left" alt="khal">
-    </div>
+<div class="wrapper">
+    <section id="content">
+        <h1>Portfolio</h1>
+        <hr>
+
+        <!-- <table style="width: 30%"> -->
+            <div class="row">
+                <img class="port" src="./images/art-color-colourful-207665.jpg" class="rounded float-left" alt="...">
+                <img class="port" src="./images/baking-flour-food-1184265.jpg" class="rounded float-right" alt="...">
+            </div>
+            <div class="row">    
+                <img class="port" src="./images/bodybuilding-close-up-dumbbells-260352.jpg" class="rounded float-left" alt="...">
+                <img class="port" src="./images/bookcase-bookshelves-bookstore-351265.jpg" class="rounded float-right" alt="...">
+            </div>
+                <img class="port" src="./images/concert-music-musical-instrument-111287.jpg" class="rounded float-left" alt="...">
+            <!-- </tr> -->
+
+        </table>
+
+    </section>
 </div>
+<!-- Pictures from https://www.pexels.com/ -->
 
+
+    <footer>Copyright&copy;</footer>
+   
 </body>
 </html>
