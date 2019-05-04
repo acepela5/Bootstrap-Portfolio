@@ -9,41 +9,73 @@
     <link rel="stylesheet" href="../Basic-Portfolio/assets/css/style.css">
 </head>
 <body>
-    <!-- Referenced from GetBootstrap.com -->
-        <div id="header">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="./index.html">About Me</a>
-                            <a class="nav-item nav-link" href="./contact.html">Contact</a>
-                            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-                           </div>
-                        </div>
-                      </nav>
+           <!-- code referenced from GetBootstrap.com -->
+    <div id="header" class="container">
+            <div class="row">
+                <div class="col-sm-3" id="fixed">Adi Cepela</div>
+                <div class="col-sm-9">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <nav class="ml-auto">
+                            <a class="navbar-brand" href="./index.html">Navbar</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link" href="./index.html">About Me</a>
+                                    <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                                    <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </nav>
+                </div>
             </div>
+        </div>
 
-<div class="wrapper">
-    <section id="content">
-        <h1>Portfolio</h1>
-        <hr>
+        <div class="container">
+                <section id="content">
+                    <div class="row">
+                        <div class="col-sm-12" class="ml-auto">
+                            <h1>Portfolio</h1>
+                        </div>
+                    </div>
+                    <hr>
 
         <!-- <table style="width: 30%"> -->
             <div class="row">
-                <img class="port" src="./images/art-color-colourful-207665.jpg" class="rounded float-left" alt="...">
-                <img class="port" src="./images/baking-flour-food-1184265.jpg" class="rounded float-right" alt="...">
-            </div>
-            <div class="row">    
-                <img class="port" src="./images/bodybuilding-close-up-dumbbells-260352.jpg" class="rounded float-left" alt="...">
-                <img class="port" src="./images/bookcase-bookshelves-bookstore-351265.jpg" class="rounded float-right" alt="...">
-            </div>
-                <img class="port" src="./images/concert-music-musical-instrument-111287.jpg" class="rounded float-left" alt="...">
-            <!-- </tr> -->
+                <div class="col-sm-3">
+                    <img class="port" src="./images/art-color-colourful-207665.jpg" class="rounded float-left" alt="...">
+                    <div class="text">To Educate, and Beyond</div>
+                </div>
+                <div class="col-sm-3">     
+                    <img class="port" src="./images/baking-flour-food-1184265.jpg" class="rounded float-right" alt="...">
+                    <div class="text">Baking Bad</div>
+                </div>
+                <div class="col-sm-6">
+                </div>
+            <div class="row">  
+                <div class="col-sm-3">  
+                    <img class="port" src="./images/bodybuilding-close-up-dumbbells-260352.jpg" class="rounded float-left" alt="...">
+                    <div class="text">Lift Me Up</div>
+                </div>
+                <div class="col-sm-3">    
+                    <img class="port" src="./images/bookcase-bookshelves-bookstore-351265.jpg" class="rounded float-right" alt="...">
+                    <div class="text">Music, Movies, and Books, Oh My!</div>
+                </div>
+                <div class="col-sm-6">
+                </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="port" src="./images/concert-music-musical-instrument-111287.jpg" class="rounded float-left" alt="...">
+                    <div class="text">Khaleesi, Mother of Violins</div>
+                </div>
+                <div class="col-sm-9">
+                </div>
+                    <!-- </tr> -->
 
-        </table>
 
     </section>
 </div>
