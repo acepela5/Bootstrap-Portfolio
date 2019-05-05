@@ -25,7 +25,7 @@ a {
     width: 190px;
     left: 200px;
     top: -85px;
-    z-index: 3;
+    z-index: 5;
     text-align: center;
     font-size: 30px;
 }
@@ -57,6 +57,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -111,55 +112,6 @@ h3 {
     position: relative;
 }
 
-@media screen and (max-width: 980px) {
-    header {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    header {
-        clear: both;
-        width: 100%;
-    }
-    .container {
-        height: 100%;
-        width: 600px;
-    }
-    #content {
-        overflow: auto;
-    }
-    form {
-        width: 100%;
-        margin: 10px;
-        padding: 10px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    #name {
-        width: 100%;
-        left: 0%;
-    }
-    .container {
-        height: 100%;
-        width: 700px;
-    }
-    #content {
-        overflow: auto;
-    }
-    
-    image {
-        clear: both;
-        position: absolute;
-    }
-    form {
-        width: 100%;
-        margin: 10px;
-        overflow: auto;
-    }
-    a {
-        z-index: 5;
-        float: left;
-    }
+#button {
+    margin: 30px;
 }
